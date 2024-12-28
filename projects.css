@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'TT Chocolates'; 
+    src: url('resources/fonts/TT\ Chocolates\ Trial\ Regular.otf');
+}
+body {
+        font-family: 'TT Chocolates'; 
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(45deg, 
+                hsla(197, 100%, 63%, 1) 0%, 
+                hsla(227, 100%, 59%, 50%) 50%, 
+                hsla(294, 100%, 55%, 1) 100%
+            );
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-filter: none; 
+            filter: none;
+}
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+#nav a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    padding: 10px 15px;
+    display: block;
+    font-size: 22px;
+    position: relative;
+    
+}
+
+#nav {
+text-align: center;
+margin: 0;
+
+}
+
+#nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 0;
+    height: 2px; 
+    background: linear-gradient(90deg, #ff930f, #fff95b);
+    transition: width 0.3s ease; 
+}
+#nav a:hover::after {
+    width: 100%; 
+}
