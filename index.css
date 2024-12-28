@@ -110,10 +110,11 @@ margin: 0;
     #pfp {
         width: 80px;
         height: 80px;
+        bottom: 60%;
     }
 
     #nav a {
-        font-size: 16px;
+        font-size: 18px;
         padding: 6px;
     }
 }
