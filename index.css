@@ -80,3 +80,26 @@ margin: 0;
     position: absolute;
 
 }
+@media (max-width: 768px) {
+    #desc {
+        font-size: 22px;
+        padding: 0px 10px;
+
+    }
+    #pfp {
+        width: 100px;
+        height: 100px;
+        transform: translateX(-50%);
+    }
+    #nav ul {
+        padding: 0;
+        margin: 10px 0;
+
+    }
+    #nav a {
+        font-size: 18px;
+        padding: 8px;
+
+    }
+
+}
