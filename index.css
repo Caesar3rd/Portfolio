@@ -78,5 +78,13 @@ margin: 0;
 .link {
     text-align: center;
     position: absolute;
-
+}
+@media (max-width: 768px) {
+    #desc {
+        font-size: 20px;
+    }
+    #nav a {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
 }
