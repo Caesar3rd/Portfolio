@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'TT Chocolates'; 
-    src: url('resources/fonts/TT\ Chocolates\ Trial\ Regular.otf');
+    font-family: 'LTSuperior'; 
+    src: url('resources/fonts/LTSuperior-Regular.otf');
 }
 body {
-        font-family: 'TT Chocolates'; 
+        font-family: 'LTSuperior'; 
             margin: 0;
             height: 100vh;
             background: linear-gradient(45deg, 
