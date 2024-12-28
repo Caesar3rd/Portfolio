@@ -101,21 +101,6 @@ margin: 0;
 
     }
     
-    body {
-        background: linear-gradient(45deg, 
-        hsla(197, 100%, 63%, 1) 0%, 
-        hsla(227, 100%, 59%, 50%) 50%, 
-        hsla(294, 100%, 55%, 1) 100%
-    );
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-filter: none; 
-    filter: none;
-    font-family: 'TT Chocolates'; 
-    margin: 0;
-
-
-    }
 }
 @media (max-width: 480px) {
     #desc {
@@ -130,19 +115,5 @@ margin: 0;
     #nav a {
         font-size: 16px;
         padding: 6px;
-    }
-    body {
-        background: linear-gradient(45deg, 
-        hsla(197, 100%, 63%, 1) 0%, 
-        hsla(227, 100%, 59%, 50%) 50%, 
-        hsla(294, 100%, 55%, 1) 100%
-    );
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-filter: none; 
-    filter: none;
-    font-family: 'TT Chocolates'; 
-    margin: 0;
-
     }
 }
