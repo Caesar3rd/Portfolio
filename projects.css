@@ -6,11 +6,7 @@ body {
         font-family: 'LTSuperior'; 
             margin: 0;
             height: 100vh;
-            background: linear-gradient(45deg, 
-                hsla(197, 100%, 63%, 1) 0%, 
-                hsla(227, 100%, 59%, 50%) 50%, 
-                hsla(294, 100%, 55%, 1) 100%
-            );
+            background-color: black;
             background-repeat: no-repeat;
             background-size: cover;
             -webkit-filter: none; 
@@ -25,7 +21,7 @@ body {
 }
 #nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     float: left;
     padding: 10px 15px;
     display: block;
@@ -43,13 +39,35 @@ margin: 0;
 #nav a::after {
     content: '';
     position: absolute;
-    left: 0;
+    left: 25%;
     bottom: -2px; 
     width: 0;
     height: 2px; 
-    background: linear-gradient(90deg, #ff930f, #fff95b);
-    transition: width 0.3s ease; 
+    background: linear-gradient(90deg,  #42caff,  	#e81aff);
+    transition: width 0.5s ease; 
 }
 #nav a:hover::after {
-    width: 100%; 
+    width: 50%; 
+    
+}
+#project1 {
+    background-color: rgba(27, 27, 27, 0.5);
+    width: 30%;
+    border-radius: 5px;
+    height: 50%;
+    position: absolute;
+    left: 10%;
+    bottom: 38%;
+
+}
+#project1 h2 {
+    color: #ffffff;
+    opacity: 1;
+    text-align: center;
+    
+}
+#project1 p {
+    color: #ffffff;
+    text-align: center;
+
 }
